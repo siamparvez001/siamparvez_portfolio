@@ -12,7 +12,12 @@
 src/lib/medium-rss.ts
 # testing
 /coverage
+# CV PDF
+public/sohan-talukder-cv.pdf
 
+# Components
+src/components/blog-section.tsx
+src/components/experience-section.tsx
 # next.js
 /.next/
 /out/
