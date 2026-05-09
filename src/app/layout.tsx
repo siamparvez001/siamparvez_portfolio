@@ -21,27 +21,23 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     default:
-      "Md. Sohan Talukder Akash | React Native & Flutter Developer | Mobile App Developer Bangladesh",
-    template: "%s | Sohan Talukder",
+      "Md. Siam Parvez | React  Developer | Web Developer Bangladesh",
+    template: "%s | Siam Parvez",
   },
   description:
-    "Md. Sohan Talukder Akash (Sohan Talukder) is a React Native and Flutter app developer based in Dhaka, Bangladesh. Portfolio of mobile and web apps—React Native Developer Bangladesh, Mobile App Developer Bangladesh.",
-  applicationName: "Sohan Talukder Portfolio",
+    "Md. Siam Parvez (Siam Parvez) is a React  developer based in Dhaka, Bangladesh. Portfolio of  web  Developer Bangladesh.",
+  applicationName: "Siam Parvez Portfolio",
   referrer: "origin-when-cross-origin",
   keywords: [
-    "Md. Sohan Talukder Akash",
-    "Sohan Talukder",
-    "Md. Sohan Talukder",
-    "Sohan",
-    "Akash",
-    "Sohan Talukder React Native Developer",
-    "App Developer",
-    "Flutter Developer",
-    "React Native Developer",
-    "React Native Developer Bangladesh",
-    "Mobile App Developer Bangladesh",
+    "Md. Siam Parvez",
+    
+    "Siam Parvez React  Developer",
+    
+    
+    "React Developer Bangladesh",
+    
     "Full Stack Developer",
-    "TypeScript Developer",
+    
     "React Developer",
     "Next.js Developer",
     "JavaScript Developer",
@@ -49,15 +45,13 @@ export const metadata: Metadata = {
     "Bangladesh Developer",
     "Dhaka Developer",
     "Portfolio",
-    "Mobile App Development",
-    "React Native",
-    "Flutter",
+    
     "Node.js",
-    "Software Engineer",
+    
   ],
-  authors: [{ name: "Md. Sohan Talukder", url: siteUrl }],
-  creator: "Md. Sohan Talukder",
-  publisher: "Md. Sohan Talukder",
+  authors: [{ name: "Siam Parvez", url: siteUrl }],
+  creator: "Siam Parvez",
+  publisher: "Siam Parvez",
   formatDetection: {
     email: false,
     address: false,
@@ -84,27 +78,27 @@ export const metadata: Metadata = {
     url: siteUrl,
     siteName: "Sohan Talukder Portfolio",
     title:
-      "Md. Sohan Talukder Akash | React Native & Flutter Developer | Mobile App Developer Bangladesh",
+      "Md. Siam Parvez | React  Developer | Web Developer Bangladesh",
     description:
-      "React Native and Flutter developer in Dhaka, Bangladesh. Md. Sohan Talukder Akash builds mobile apps for iOS and Android—portfolio, projects, and contact.",
+      "React developer in Dhaka, Bangladesh. Md.Siam Parvez builds web application projects, and contact.",
     images: [
       {
         url: thumbnailUrl,
         width: 1200,
         height: 630,
-        alt: "Md. Sohan Talukder Akash — React Native and Flutter developer, Bangladesh",
+        alt: "Md. Siam Parvez — React  developer, Bangladesh",
         type: "image/png",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    site: "@sohantalukder0",
-    creator: "@sohantalukder0",
+    site: "@siamparvez01",
+    creator: "@siamparvez01",
     title:
-      "Md. Sohan Talukder Akash | React Native & Flutter Developer | Mobile App Developer Bangladesh",
+      "Md. Siam Parvez | React Native & Flutter Developer |  Web Developer Bangladesh",
     description:
-      "React Native and Flutter developer in Dhaka, Bangladesh. Mobile apps, web projects, and open-source work.",
+      "React developer in Dhaka, Bangladesh. ",
     images: [thumbnailUrl],
   },
   verification: {
@@ -118,17 +112,17 @@ export const metadata: Metadata = {
     "mobile-web-app-capable": "yes",
     "apple-mobile-web-app-capable": "yes",
     "apple-mobile-web-app-status-bar-style": "default",
-    "apple-mobile-web-app-title": "Sohan Portfolio",
-    "application-name": "Sohan Talukder Portfolio",
+    "apple-mobile-web-app-title": "Siam Portfolio",
+    "application-name": "Siam Parvez Portfolio",
     "msapplication-TileColor": "#ffb80d",
     "msapplication-config": "browserconfig.xml",
     "twitter:image": thumbnailUrl,
-    "twitter:image:alt": "Md. Sohan Talukder Akash — React Native and Flutter developer, Bangladesh",
-    "og:image:alt": "Md. Sohan Talukder Akash — React Native and Flutter developer, Bangladesh",
-    "article:author": "Md. Sohan Talukder",
-    "profile:first_name": "Sohan",
-    "profile:last_name": "Talukder",
-    "profile:username": "sohantalukder",
+    "twitter:image:alt": "Md. Siam Parvez — React  developer, Bangladesh",
+    "og:image:alt": "Md. Siam Parvez — React developer, Bangladesh",
+    "article:author": "Md. Siam Parvez",
+    "profile:first_name": "Siam",
+    "profile:last_name": "Parvez",
+    "profile:username": "siamparvez",
     "profile:gender": "male",
     "geo.region": "BD-13",
     "geo.position": "23.8103;90.4125",

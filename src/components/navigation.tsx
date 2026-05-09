@@ -11,9 +11,9 @@ import { easeSmooth } from "@/components/motion"
 const navItems = [
   { name: "Home", href: "#home" },
   { name: "About", href: "#about" },
-  { name: "Experience", href: "#experience" },
+  // { name: "Experience", href: "#experience" },
   { name: "Projects", href: "#projects" },
-  { name: "Blog", href: "#blog" },
+  // { name: "Blog", href: "#blog" },
   { name: "Contact", href: "#contact" },
 ]
 
@@ -39,7 +39,7 @@ export function Navigation() {
       <div className="container max-w-7xl mx-auto px-4">
         <div className="flex h-16 items-center justify-between">
           <Link href="/" className="text-xl font-bold">
-            sohan.dev
+            siam.dev
           </Link>
 
           {/* Desktop Navigation */}

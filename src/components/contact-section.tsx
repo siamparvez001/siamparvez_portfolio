@@ -200,7 +200,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-medium text-sm">Address</h4>
-                  <p className="text-muted-foreground text-sm">Mirpur, Dhaka</p>
+                  <p className="text-muted-foreground text-sm">Savar, Dhaka</p>
                 </div>
               </div>
 
@@ -210,7 +210,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-medium text-sm">Contact Number</h4>
-                  <p className="text-muted-foreground text-sm">+8801865748726</p>
+                  <p className="text-muted-foreground text-sm">+8801408977801</p>
                 </div>
               </div>
 
@@ -220,24 +220,24 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h4 className="font-medium text-sm">Email</h4>
-                  <p className="text-muted-foreground text-sm">mdtalukder.sohan@gmail.com</p>
+                  <p className="text-muted-foreground text-sm">siamparvez155@gmail.com</p>
                 </div>
               </div>
             </div>
 
             <div className="flex gap-3 pt-4">
               <Button variant="outline" size="sm" asChild>
-                <a href="https://github.com/sohantalukder" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/siamparvez001" target="_blank" rel="noopener noreferrer">
                   <Github className="h-4 w-4" />
                 </a>
               </Button>
               <Button variant="outline" size="sm" asChild>
-                <a href="https://linkedin.com/in/sohantalukder" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/siam-parvez/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="h-4 w-4" />
                 </a>
               </Button>
               <Button variant="outline" size="sm" asChild>
-                <a href="mailto:mdtalukder.sohan@gmail.com">
+                <a href="siamparvez155@gmail.com">
                   <Mail className="h-4 w-4" />
                 </a>
               </Button>

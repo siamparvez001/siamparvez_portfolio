@@ -4,17 +4,17 @@ export function StructuredData() {
   const personSchema = {
     "@context": "https://schema.org",
     "@type": "Person",
-    "name": "Md. Sohan Talukder",
-    "alternateName": ["Sohan Talukder", "Sohan", "Md. Sohan Talukder Akash", "Md. Sohan Talukder", "Sohan Talukder Akash", "Akash", "sohantalukder"],
+    "name": "Md. Siam Parvez",
+    "alternateName": ["Siam Parvez", "Siam", "Md. Siam Parvez", "Md. Siam Parvez", "Siam Parvez", "Parvez", "siamparvez"],
     "url": siteUrl,
-    "image": `${siteUrl}/thumbnail.png`,
-    "jobTitle": "React Native & Flutter Developer",
+    // "image": `${siteUrl}/thumbnail.png`,
+    // "jobTitle": "React Native & Flutter Developer",
     "worksFor": {
       "@type": "Organization",
       "name": "Freelancer"
     },
     "description":
-      "Md. Sohan Talukder Akash (Sohan Talukder) is a mobile app developer in Dhaka, Bangladesh, building apps with React Native, Flutter, and modern web stacks.",
+      "Md. Siam Parvez (Siam Parvez) is a web developer in Dhaka, Bangladesh.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Dhaka",
@@ -22,76 +22,70 @@ export function StructuredData() {
     },
     "nationality": "Bangladeshi",
     "knowsAbout": [
-      "React Native",
-      "Flutter",
-      "Dart",
-      "Mobile App Development",
-      "iOS",
-      "Android",
-      "TypeScript",
-      "JavaScript",
       "React",
+      "Web Development",
+      
+      "JavaScript",
+      
       "Next.js",
       "Node.js",
-      "Web Development",
+      
       "Frontend Development",
       "Backend Development",
-      "Software Engineering"
+      
     ],
     "sameAs": [
-      "https://github.com/sohantalukder",
-      "https://linkedin.com/in/sohantalukder",
-      "https://twitter.com/sohantalukder0",
-      "https://sohantalukder.medium.com"
+      "https://github.com/siamparvez001",
+      "https://www.linkedin.com/in/siam-parvez/",
+      "https://x.com/siamparvez01"
+      
     ],
-    "email": "mailto:mdtalukder.sohan@gmail.com"
+    "email": "siamparvez@gmail.com"
   };
 
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "Sohan Talukder Portfolio",
-    "alternateName": "Sohan Portfolio",
+    "name": "Siam Parvez Portfolio",
+    "alternateName": "Siam Portfolio",
     "url": siteUrl,
     "description":
-      "Official portfolio of Md. Sohan Talukder Akash—React Native and Flutter developer, Mobile App Developer Bangladesh.",
+      "Official portfolio of Md. Siam Parvez React Native developer, Web Developer Bangladesh.",
     "author": {
       "@type": "Person",
-      "name": "Md. Sohan Talukder"
+      "name": "Md. Siam Parvez"
     },
     "inLanguage": "en-US",
     "copyrightHolder": {
       "@type": "Person", 
-      "name": "Md. Sohan Talukder"
+      "name": "Md. Siam Parvez"
     },
     "copyrightYear": "2026",
     "genre": "Portfolio",
     "keywords":
-      "Md. Sohan Talukder Akash, Sohan Talukder, React Native Developer Bangladesh, Mobile App Developer Bangladesh, Flutter Developer, React Native, Bangladesh"
+      "Md. Siam Parvez, Siam Parvez, React Developer Bangladesh, Web Developer Bangladesh"
   };
 
   const professionalService = {
-    "@context": "https://schema.org",
+    
     "@type": "ProfessionalService",
-    "name": "Sohan Talukder — Mobile & Web Development",
+    "name": "Siam Parvez —Web Development",
     "description":
-      "React Native, Flutter, and full-stack web development for clients in Bangladesh and worldwide.",
+      "React and full-stack web development for clients in Bangladesh and worldwide.",
     "provider": {
       "@type": "Person",
-      "name": "Md. Sohan Talukder"
+      "name": "Md. Siam Parvez"
     },
     "areaServed": [
       { "@type": "Country", "name": "Bangladesh" },
       { "@type": "Place", "name": "Worldwide" }
     ],
     "serviceType": [
-      "React Native Development",
-      "Flutter Development",
-      "Mobile App Development",
+     
       "Web Development",
       "Frontend Development",
       "Backend Development",
-      "TypeScript Development",
+      
       "React Development"
     ],
     "url": siteUrl

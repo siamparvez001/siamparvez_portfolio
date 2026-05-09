@@ -75,7 +75,7 @@ export default function HeroSection() {
               >
                 Hi, I&apos;m{" "}
                 <span className="text-gradient  bg-clip-text ">
-                  Sohan Talukder
+                  Siam Parvez
                 </span>
               </motion.h1>
 
@@ -83,7 +83,7 @@ export default function HeroSection() {
                 className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto lg:mx-0"
                 variants={itemVariants}
               >
-                Md. Sohan Talukder Akash · React Native &amp; Flutter developer · Mobile app developer in
+                Md. Siam Parvez ·  Web developer · in
                 Bangladesh
               </motion.p>
               
@@ -91,16 +91,14 @@ export default function HeroSection() {
                 className="text-xl sm:text-2xl text-muted-foreground"
                 variants={itemVariants}
               >
-                React Native &amp; Flutter Developer 👋
+                React Developer 👋
               </motion.p>
               
               <motion.p 
                 className="text-lg text-muted-foreground max-w-2xl mx-auto lg:mx-0 leading-relaxed"
                 variants={itemVariants}
               >
-                I build cross-platform mobile apps and modern web products from Dhaka, Bangladesh—React
-                Native, Flutter, TypeScript, and React—with a focus on performance, clean architecture, and
-                shipping apps people use every day.
+                Full-Stack Web Developer from Bangladesh, building modern web experiences with React, Node.js, and MongoDB.
               </motion.p>
             </div>
 
@@ -143,7 +141,7 @@ export default function HeroSection() {
               <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
                 <Link 
                   target="_blank"
-                  href="https://github.com/sohantalukder" 
+                  href="https://github.com/siamparvez001" 
                   className="text-foreground/80 hover:text-foreground transition-colors"
                 >
                   <Github className="w-6 h-6" />
@@ -152,7 +150,7 @@ export default function HeroSection() {
               <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
                 <Link 
                   target="_blank"
-                  href="https://linkedin.com/in/sohantalukder" 
+                  href="https://www.linkedin.com/in/siam-parvez/" 
                   className="text-foreground/80 hover:text-foreground transition-colors"
                 >
                   <Linkedin className="w-6 h-6" />
@@ -161,7 +159,7 @@ export default function HeroSection() {
               <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.95 }}>
                 <Link 
                   target="_blank"
-                  href="https://twitter.com/sohantalukder0" 
+                  href="https://x.com/siamparvez01" 
                   className="text-foreground/80 hover:text-foreground transition-colors"
                 >
                   <Twitter className="w-6 h-6" />
@@ -242,8 +240,8 @@ export default function HeroSection() {
               
               {/* Decorative portrait (CSS); real img with alt for SEO and accessibility */}
               <img
-                src="/sohan.png"
-                alt="Md. Sohan Talukder Akash, React Native and Flutter mobile app developer in Dhaka, Bangladesh"
+                src="/siam.jpeg"
+                alt="Md. Siam Parvez, React  developer in Dhaka, Bangladesh"
                 width={400}
                 height={400}
                 decoding="async"

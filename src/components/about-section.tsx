@@ -3,8 +3,8 @@ import { Badge } from "@/components/ui/badge"
 import { ScrollReveal, StaggerContainer, StaggerItem } from "@/components/motion"
 
 const skills = [
-  "JavaScript", "TypeScript", "React", "React Native", "Swift", "Flutter", "Dart","Next.js", "Node.js", 
-  "MongoDB", "Git", "AWS", "Docker", "CI/CD", 
+  "Html", "tailwind", "JavaScript", "React", "Next.js", "Node.js",
+  "MongoDB", "Express", "Git",
 ]
 
 export default function AboutSection() {
@@ -20,9 +20,10 @@ export default function AboutSection() {
           <StaggerItem>
             <div>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed mb-4">
-                I&apos;m a JavaScript and TypeScript developer with 3+ years of experience building mobile and web
-                applications from Bangladesh. I focus on React Native and Flutter for iOS and Android, plus
-                React and Next.js for the web—clean architecture and maintainable code.
+
+
+                I'm Siam Parvez, a passionate MERN Stack Developer from Dhaka, Bangladesh. I love building fast, scalable, and beautiful web applications — from clean UI with React & Next.js to robust backends with Node.js, Express, and MongoDB. I'm always learning, always building, and always pushing to write better code.
+
               </p>
               <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
                 Passionate about shipping reliable apps, learning new tools, and contributing to open-source when
@@ -37,8 +38,8 @@ export default function AboutSection() {
                 <h3 className="text-lg font-semibold mb-4 text-black dark:text-white">Skills</h3>
                 <div className="flex flex-wrap gap-2">
                   {skills.map((skill) => (
-                    <Badge 
-                      key={skill} 
+                    <Badge
+                      key={skill}
                       variant="secondary"
                       className="bg-white dark:bg-black border border-gray-200 dark:border-gray-700 text-black dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
                     >

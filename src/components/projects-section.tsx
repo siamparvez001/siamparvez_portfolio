@@ -8,50 +8,38 @@ import { ScrollReveal, StaggerContainer, StaggerItem, TiltCard } from "@/compone
 const projects = [
   {
     id: 4,
-    name: "Creolytix",
+    name: "Skill Sphere",
     icon: "🧠",
-    description: "AI-powered resilience and risk intelligence platform that helps organizations monitor global events, analyze risks, and make data-driven decisions in real-time. It unifies cybersecurity, supply chain, travel, and operational risks into a single ecosystem, enabling faster and smarter crisis response.",
-    demo: "https://creolytix.io/",
-    technology: ["React Native", "REST API", "Real-time Data", "AI Integration"],
-    note: "Developed mobile application using React Native"
+    description: "SkillSphere is an online learning platform where people can explore courses, watch lessons, and build new skills. The platform has courses on Web Development, Design, Marketing, Data Science, and more.",
+    demo: "https://skill-sphere-theta-henna.vercel.app/",
+    technology: ["React", "Note.js", "MongoDB"],
+    note: "Developed web application using React"
   },
   {
     id: 5,
-    name: "Prime Now",
+    name: "Pixgen",
     icon: "💳",
-    description: "Digital banking platform offering a seamless and modern financial experience. Features include instant account creation, secure transactions, real-time alerts, and a fully mobile-first banking system designed for convenience and speed.",
-    demo: "https://primenow.ai/",
-    demoAPP: "https://play.google.com/store/apps/details?id=com.primenow.app",
-    technology: ["Flutter", "Fintech", "Secure Payments"],
+    description: "An AI-powered image generation platform where users can turn text prompts into stunning visuals — with gallery, pricing, and user authentication.",
+    demo: "https://pixgen-black.vercel.app/",
+    technology: ["React", "Note.js", "MongoDB"],
   },
   {
     id: 6,
-    name: "SalesPype",
+    name: "Digi Tools",
     icon: "📊",
-    description: "All-in-one CRM and sales automation platform that helps businesses manage leads, automate marketing, track pipelines, and improve conversion rates. It integrates communication tools like email, SMS, and calls into a single unified system.",
-    demo: "https://salespype.com/",
-    demoAPP: "https://play.google.com/store/apps/details?id=com.salespypeprov2",
-    demoIOS: "https://apps.apple.com/us/app/salespype/id1538315340",
-    technology: ["React Native", "CRM System", "Automation", "API Integration"],
+    description: "A marketplace where users can browse and purchase subscriptions for various AI tools — all in one place",
+    demo: "https://frolicking-raindrop-10bb00.netlify.app/",
+    technology: ["React", "JavaScript", "Tailwind Css"],
   },
   {
     id: 7,
-    name: "FTPO (Find The Perfect Outfits)",
-    icon: "👕",
-    description: "Fashion discovery platform that helps users find and explore the perfect outfits based on trends, preferences, and styles. Designed to enhance the shopping experience with personalized recommendations.",
-    demo: "https://findtheperfectoutfits.com/",
-    technology: ["React Native", "E-commerce", "Recommendation System"],
+    name: "English Janala",
+    icon: "🌐",
+    description: "A Bengali-English learning platform with interactive vocabulary lessons and structured courses for Bangla-speaking learners.",
+    demo: "https://siamparvez001.github.io/ENGLISH-JANALA/",
+    technology: ["React", "JavaScript", "Tailwind Css"],
   },
-  {
-    id: 8,
-    name: "Learnyx",
-    icon: "🎮",
-    description: "Gamified learning platform that combines education with interactive gameplay. It allows users to read, explore stories, and engage in learning experiences through games, making education more fun and engaging.",
-    demo: "https://www.learnyx.com/",
-    demoAPP: "https://play.google.com/store/apps/details?id=com.learnyx.litzone",
-    demoIOS: "https://apps.apple.com/us/app/learnix-ai/id6751657270",
-    technology: ["React Native", "EdTech", "Gamification"],
-  }
+ 
 ];
 
 export function ProjectsSection() {
@@ -76,7 +64,7 @@ export function ProjectsSection() {
                   </CardHeader>
                   <CardContent className="space-y-3">
                     <p className="text-muted-foreground text-sm">{project.description}</p>
-                    
+
                     <div className="flex flex-wrap gap-1">
                       {project.technology.map((tech) => (
                         <Badge key={tech} variant="secondary" className="text-xs px-2 py-0">
@@ -84,7 +72,7 @@ export function ProjectsSection() {
                         </Badge>
                       ))}
                     </div>
-                    
+
                     <div className="flex flex-wrap gap-2">
                       {project.demo && (
                         <Link href={project.demo} target="_blank">
@@ -94,22 +82,22 @@ export function ProjectsSection() {
                           </Button>
                         </Link>
                       )}
-                      {project.demoAPP && (
+                      {/* {project.demoAPP && (
                         <Link href={project.demoAPP} target="_blank" rel="noopener noreferrer">
                           <Button variant="default" size="sm" className="h-8 text-xs">
                             <ExternalLink className="mr-1 h-3 w-3" />
                             Android
                           </Button>
                         </Link>
-                      )}
-                      {"demoIOS" in project && project.demoIOS && (
+                      )} */}
+                      {/* {"demoIOS" in project && project.demoIOS && (
                         <Link href={project.demoIOS} target="_blank" rel="noopener noreferrer">
                           <Button variant="default" size="sm" className="h-8 text-xs">
                             <ExternalLink className="mr-1 h-3 w-3" />
                             iOS
                           </Button>
                         </Link>
-                      )}
+                      )} */}
                     </div>
                   </CardContent>
                 </Card>
@@ -119,7 +107,7 @@ export function ProjectsSection() {
         </StaggerContainer>
 
         <ScrollReveal className="text-center mt-8" delay={0.08}>
-          <Link href="https://github.com/sohantalukder" target="_blank">
+          <Link href="https://github.com/siamparvez001" target="_blank">
             <Button variant="outline" size="sm" className="h-9 cursor-pointer">
               <Github className="mr-2 h-4 w-4" />
               More on GitHub

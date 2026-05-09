@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Github, Linkedin } from "lucide-react"
+import { Github, Linkedin, X } from "lucide-react"
 import Link from "next/link"
 import { ScrollReveal } from "@/components/motion"
 
@@ -28,23 +28,23 @@ export function Footer() {
       <div className="container max-w-7xl mx-auto px-4 py-8">
         <ScrollReveal className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
-            <span>© {currentYear} Md. Sohan Talukder Akash</span>
+            <span>© {currentYear} Md. Siam Parvez</span>
           </div>
 
           <div className="flex items-center gap-4">
-            <Link href="https://github.com/sohantalukder" target="_blank">
+            <Link href="https://github.com/siamparvez001" target="_blank">
               <Button variant="ghost" size="icon">
                 <Github className="h-4 w-4" />
               </Button>
             </Link>
-            <Link href="https://linkedin.com/in/sohantalukder" target="_blank">
+            <Link href="https://www.linkedin.com/in/siam-parvez/" target="_blank">
               <Button variant="ghost" size="icon">
                 <Linkedin className="h-4 w-4" />
               </Button>
             </Link>
-            <Link href="https://sohantalukder.medium.com/" target="_blank" rel="noopener noreferrer">
+            <Link href="https://x.com/siamparvez01" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" size="icon" aria-label="Medium">
-                <MediumIcon className="h-4 w-4" />
+                <X className="h-4 w-4" />
               </Button>
             </Link>
           </div>

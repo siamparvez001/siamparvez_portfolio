@@ -1,4 +1,4 @@
-# Sohan Talukder - Personal Portfolio
+# Siam Parvez - Personal Portfolio
 
 A modern, responsive personal portfolio built with Next.js, TypeScript, Tailwind CSS, and shadcn/ui components.
 
@@ -45,7 +45,7 @@ A modern, responsive personal portfolio built with Next.js, TypeScript, Tailwind
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/sohantalukder/sohantalukder.github.io.git
+git clone https://github.com/siamparvez001/siamparvez-portfolio
 cd sohantalukder.github.io
 ```
 
@@ -156,8 +156,7 @@ This project is open source and available under the [MIT License](LICENSE).
 **Md. Sohan Talukder Akash**
 - 🌐 Website: [https://sohantalukder.github.io/](https://sohantalukder.github.io/)
 - 💼 GitHub: [@sohantalukder](https://github.com/sohantalukder)
-- 📝 Medium: [@sohantalukder](https://sohantalukder.medium.com)
-- 💼 LinkedIn: [sohantalukder](https://linkedin.com/in/sohantalukder)
+- 💼 LinkedIn: [sohantalukder](https://github.com/siamparvez001)
 
 ---
 
