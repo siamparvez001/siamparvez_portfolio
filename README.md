@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio built with Next.js, TypeScript, Tailwind CSS, and shadcn/ui components.
 
-🌐 **Live Demo**: [https://sohantalukder.github.io/](https://sohantalukder.github.io/)
+🌐 **Live Demo**: [https://siamparvez-portfolio.vercel.app/](https://siamparvez-portfolio.vercel.app/)
 
 ## ✨ Features
 
@@ -46,7 +46,7 @@ A modern, responsive personal portfolio built with Next.js, TypeScript, Tailwind
 1. Clone the repository:
 ```bash
 git clone https://github.com/siamparvez001/siamparvez-portfolio
-cd sohantalukder.github.io
+cd https://siamparvez-portfolio.vercel.app/
 ```
 
 2. Install dependencies:
@@ -115,7 +115,7 @@ This portfolio is automatically deployed to GitHub Pages using GitHub Actions. H
 
 1. **Automatic Deployment**: Every push to the `dev` branch triggers the deployment workflow
 2. **Build Process**: GitHub Actions builds the Next.js app as a static site
-3. **Live Site**: The site is deployed to [https://sohantalukder.github.io/](https://sohantalukder.github.io/)
+3. **Live Site**: The site is deployed to [https://siamparvez-portfolio.vercel.app/](https://siamparvez-portfolio.vercel.app/)
 
 #### To deploy your own version:
 
@@ -154,7 +154,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 💬 Contact
 
 **Md. Sohan Talukder Akash**
-- 🌐 Website: [https://sohantalukder.github.io/](https://sohantalukder.github.io/)
+- 🌐 Website: [https://sohantalukder.github.io/](https://siamparvez-portfolio.vercel.app/)
 - 💼 GitHub: [@sohantalukder](https://github.com/sohantalukder)
 - 💼 LinkedIn: [sohantalukder](https://github.com/siamparvez001)
 
