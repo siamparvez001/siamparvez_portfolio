@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio built with Next.js, TypeScript, Tailwind CSS, and shadcn/ui components.
 
-🌐 **Live Demo**: [https://siamparvez-portfolio.vercel.app/](https://siamparvez-portfolio.vercel.app/)
+🌐 **Live Demo**: [https://siamparvez-portfolio.vercel.app/](https://siamparvez-portfolio-fzbi.vercel.app/)
 
 ## ✨ Features
 
@@ -115,7 +115,7 @@ This portfolio is automatically deployed to GitHub Pages using GitHub Actions. H
 
 1. **Automatic Deployment**: Every push to the `dev` branch triggers the deployment workflow
 2. **Build Process**: GitHub Actions builds the Next.js app as a static site
-3. **Live Site**: The site is deployed to [https://siamparvez-portfolio.vercel.app/](https://siamparvez-portfolio.vercel.app/)
+3. **Live Site**: The site is deployed to [https://siamparvez-portfolio.vercel.app/](https://siamparvez-portfolio-fzbi.vercel.app/)
 
 #### To deploy your own version:
 
@@ -154,7 +154,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 💬 Contact
 
 **Md. Sohan Talukder Akash**
-- 🌐 Website: [https://sohantalukder.github.io/](https://siamparvez-portfolio.vercel.app/)
+- 🌐 Website: [https://sohantalukder.github.io/](https://siamparvez-portfolio-fzbi.vercel.app/)
 - 💼 GitHub: [@sohantalukder](https://github.com/sohantalukder)
 - 💼 LinkedIn: [sohantalukder](https://github.com/siamparvez001)
 
